@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "testing-https://www.fakerql.com/---graphql-api-qith-fake-data.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 268855100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I set URL to \"https://fakerql.com/graphql\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://fakerql.com/graphql",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitions.iSetURLTo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1033000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set the content type to \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsDefinitions.iSetTheContentTypeTo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 968300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set operation to \"post\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 20
+                }
+              ],
+              "location": "StepsDefinitions.iSetOperationTo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3276416900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I set body request with:",
+            "match": {
+              "location": "StepsDefinitions.iSetBodyRequestWith(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "wk0z1j1tzj7xc0116is3ckdrx"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "avatar",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2320375500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I execute the request",
+            "match": {
+              "location": "StepsDefinitions.iExecuteTheRequest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7644200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The json should contain this values:",
+            "match": {
+              "location": "StepsDefinitions.theJsonShouldContainThisValues(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Betty"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Boehm"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "Nelson18@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "avatar",
+                  "https://s3.amazonaws.com/uifaces/faces/twitter/drewbyreese/128.jpg"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing https://www.fakerql.com/ - Graphql api qith fake data.",
+    "description": "",
+    "id": "testing-https://www.fakerql.com/---graphql-api-qith-fake-data.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/test.feature",
+    "tags": []
+  }
+]
