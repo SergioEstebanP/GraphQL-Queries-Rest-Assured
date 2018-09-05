@@ -1,0 +1,1 @@
+# GraphQl-Queries-Rest-Assured
